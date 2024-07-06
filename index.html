@@ -7,10 +7,37 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <h1>World Clock</h1>
+    <div class="container">
+      <h1>World Clock</h1>
+      <select name="city" id="cities">
+        <option value="">Select a city</option>
+        <option value="amsterdam">Amsterdam, Netherlands</option>
+        <option value="lisbon">Lisbon, Portugal</option>
+        <option value="casablanca">Casablanca, Morocco</option>
+        <option value="tema">Tema, Ghana</option>
+        <option value="capetown">Cape Town, South Africa</option>
+        <option value="mauritius">Port Louis, Mauritius</option>
+        <option value="cochin">Cochin, India</option>
+        <option value="saigon">Ho Chi Minh City, Vietnam</option>
+        <option value="hongkong">Hong Kong</option>
+        <option value="bangkok">Bangkok, Thailand</option>
+      </select>
+      <div class="city">
+        <h2>Amsterdam, Netherlands</h2>
+        <div class="date">September 9, 2024</div>
+        <div class="time">12:29:11 PM</div>
+      </div>
+      <div class="city">
+        <h2>Lisbon, Portugal</h2>
+        <div class="date">September 9, 2024</div>
+        <div class="time">12:29:11 PM</div>
+      </div>
+    </div>
     <footer>
-      This project was coded by Lea White and open-sourced on
-      <a href="https://github.com/leacorrina/world-clock">GitHub</a>
+      This project was coded by Lea White and is open-sourced on
+      <a href="https://github.com/leacorrina/world-clock" target="_blank"
+        >GitHub</a
+      >
     </footer>
   </body>
   <script src="javascript/index.js"></script>
