@@ -1,0 +1,8 @@
+body {
+  background-color: orange;
+  color: antiquewhite;
+}
+h1,
+footer {
+  text-align: center;
+}
